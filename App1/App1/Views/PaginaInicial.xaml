@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Views.PaginaInicial"
+             Title="Lista de despesas">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="add.png" Command="{Binding IncluirCommand}" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+
+        <StackLayout>
+            
+            
+            <ListView ItemsSource="{Binding Despesas}" Margin="5, 2, 5, 2"
+            HasUnevenRows="true" ItemTapped="Despesa_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+
+                            <StackLayout Orientation="Horizontal">
+
+                                                              
+                                <StackLayout Orientation="Vertical">
+                                    <Label Text="{Binding Descricao}" FontAttributes="Bold" FontSize="18"
+                                   TextColor="Black" VerticalOptions="Center"/>
+                                    <Label Text="{Binding Valor}" FontSize="15" TextColor="DarkBlue"
+                                   VerticalOptions="Center" />
+                                    <Label Text="{Binding DataVencimento}" FontSize="15" TextColor="DarkBlue"
+                                   VerticalOptions="Center" />
+                                </StackLayout>
+                                
+                                <StackLayout Orientation="Vertical">
+                                    <Switch IsToggled="{Binding Pago}"  VerticalOptions="End" />
+                                </StackLayout>
+
+
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

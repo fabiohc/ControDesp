@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Views.CadastraDespesa"
+                xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
+             Title="Cadastra nova despesa">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="delete.png" Command="{Binding DeleteCommand}" />
+        <ToolbarItem Icon="check.png" Command="{Binding OkBotao}" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+
+        <Grid Padding="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="85"/>
+                <ColumnDefinition Width="*"/>                
+                
+            </Grid.ColumnDefinitions>
+
+            <!-- Primeira linha: Descrição -->
+            <Label Grid.Row="0" Grid.Column="0" Text="Despesa:" HorizontalOptions="End"
+                   VerticalOptions="EndAndExpand" FontSize="20" TextColor="DarkBlue" />
+            <Entry Grid.Row="0" Grid.Column="1" x:Name="txtDescricao"
+                   Placeholder="Descrição" Keyboard="Text" Text="{Binding Descricao}"  VerticalOptions="EndAndExpand"/>
+
+            <!-- Segunda linha: valor -->
+            <Label Grid.Row="1" Grid.Column="0" Text="Valor:" HorizontalOptions="End"
+                   VerticalOptions="EndAndExpand" FontSize="20" TextColor="DarkBlue"/>
+            <Entry Grid.Row="1" Grid.Column="1" x:Name="txtValor" 
+                   Placeholder="Valor" Keyboard="Numeric" Text="{Binding Valor}" FontSize="Medium" VerticalOptions="EndAndExpand"/>
+
+            <!-- Segunda linha: Data de vencimento -->
+            <Label Grid.Row="2" Grid.Column="0" Text="Data:" HorizontalOptions="End"
+                   VerticalOptions="EndAndExpand" FontSize="20" TextColor="DarkBlue"/>
+            <Entry Grid.Row="2" Grid.Column="1" x:Name="txtVencimento"
+                   Placeholder="" Keyboard="Numeric" Text="{Binding DataVencimento}" FontSize="Medium" VerticalOptions="EndAndExpand"/>
+
+            <!-- Segunda linha:  -->
+            <Label Grid.Row="3" Grid.Column="0" Text="Pago?:" HorizontalOptions="End"
+                   VerticalOptions="Start" FontSize="20" TextColor="DarkBlue"/>
+            <Switch Grid.Row="3" Grid.Column="1"  IsToggled="{Binding Pago}" VerticalOptions="Start"/>
+
+         
+            
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

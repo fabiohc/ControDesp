@@ -1,0 +1,23 @@
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\obj\Debug\App1.csprojResolveAssemblyReference.cache
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\obj\Debug\App1.csproj.CoreCompileInputs.cache
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\obj\Debug\App1.App.xaml.g.cs
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\obj\Debug\App1.Views.CadastraDespesa.xaml.g.cs
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\obj\Debug\App1.Views.PaginaInicial.xaml.g.cs
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\obj\Debug\App1.Views.Menu.xaml.g.cs
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\bin\Debug\SQLite-net.dll
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\bin\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\bin\Debug\SQLite-net.pdb
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\bin\Debug\SQLite-net.xml
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\bin\Debug\Contrôle Despesas.dll
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\bin\Debug\Contrôle Despesas.pdb
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\obj\Debug\Contrôle Despesas.dll
+C:\Users\Fabio\source\repos\ControleFinanceiro\App1\App1\obj\Debug\Contrôle Despesas.pdb
